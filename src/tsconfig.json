@@ -13,6 +13,13 @@
     "target": "es5",
     "typeRoots": [
       "../node_modules/@types"
-    ]
+    ],
+      "files": [
+    "./src/app/**/*.ts",
+    "./src/platform/**/*.ts",
+    "!./node_modules/**",
+    "./src/vendor/slick/slick-typings.d.ts",
+    "./typings/index.d.ts"
+  ]
   }
 }
